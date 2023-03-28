@@ -1,0 +1,16 @@
+
+
+.avatarPhoto {
+	border-radius: 5em;
+	border: .5em solid rgb(59, 57, 57);
+	width: 20em;
+	background-color: rgb(59, 56, 56);
+	margin-top: 5em;
+	margin-left: 10em;
+}
+
+#musicPlayer {
+	position: fixed;
+	right: .5em;
+	top: .5em;
+}
