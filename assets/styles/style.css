@@ -1,0 +1,56 @@
+a img {
+	width: 3em;
+	top: 3em;
+}
+
+#header {
+	opacity: 1;
+	top: 0;
+	background: #1f1818;
+	height: 6em;
+	vertical-align: bottom;
+}
+
+#nav {
+	margin: 0;
+	border: 0;
+}
+
+#nav li {
+	margin: 0;
+	display: block;
+	float: left;
+	color: aliceblue;
+	display: inline-block;
+	list-style: none;
+	position: relative;
+	vertical-align: bottom;
+}
+
+#nav a {
+	display: block;
+	float: left;
+	padding: 1em;
+	border-right: 1px solid #ADC0CE;
+	background: transparent;
+	color: #29838C;
+}
+
+#nav a:hover {
+	background: #ADC0CE
+}
+
+.avatarPhoto {
+	border-radius: 5em;
+	border: .5em solid rgb(59, 57, 57);
+	width: 20em;
+	background-color: rgb(59, 56, 56);
+	margin-top: 5em;
+	margin-left: 10em;
+}
+
+#musicPlayer {
+	position: fixed;
+	right: .5em;
+	top: .5em;
+}
