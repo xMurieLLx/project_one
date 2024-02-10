@@ -7,7 +7,7 @@ a img {
 	opacity: 1;
 	top: 0;
 	background: #3e3e3e;
-	height: 6em;
+	height: 5em;
 	vertical-align: bottom;
 }
 
@@ -17,10 +17,11 @@ a img {
 }
 
 #nav li {
+	height: 1em;
 	margin: 0;
 	display: block;
 	float: left;
-	color: aliceblue;
+	color: rgb(29, 231, 39);
 	display: inline-block;
 	list-style: none;
 	position: relative;
@@ -28,6 +29,7 @@ a img {
 }
 
 #nav a {
+	height: 3em;
 	display: block;
 	float: left;
 	padding: 1em;
