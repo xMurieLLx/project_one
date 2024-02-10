@@ -6,7 +6,7 @@ a img {
 #header {
 	opacity: 1;
 	top: 0;
-	background: #1f1818;
+	background: #3e3e3e;
 	height: 6em;
 	vertical-align: bottom;
 }
@@ -31,18 +31,22 @@ a img {
 	display: block;
 	float: left;
 	padding: 1em;
-	border-right: 1px solid #ADC0CE;
+	border-right: 1px solid #adc0ce;
 	background: transparent;
-	color: #29838C;
+	color: #29838c;
 }
 
 #nav a:hover {
-	background: #ADC0CE
+	background: #adc0ce;
+}
+
+header nav ul li:hover {
+	border-radius: 2em;
 }
 
 .avatarPhoto {
 	border-radius: 5em;
-	border: .5em solid rgb(59, 57, 57);
+	border: 0.5em solid rgb(59, 57, 57);
 	width: 20em;
 	background-color: rgb(59, 56, 56);
 	margin-top: 5em;
@@ -51,6 +55,7 @@ a img {
 
 #musicPlayer {
 	position: fixed;
-	right: .5em;
-	top: .5em;
+	right: 0.5em;
+	top: 0.5em;
+	color: #3e3e3e;
 }
